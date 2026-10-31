@@ -1,146 +1,33 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Professional home renovations, bathroom upgrades and ADU conversions in Los Angeles and Coachella Valley.">
-<title>Desert Sky Renovations</title>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Desert Sky Renovations — bathroom upgrades, water filtration, mini split installation and ADU conversions in Los Angeles and Coachella Valley.">
+<title>Desert Sky Renovations | Quality, Comfort & Style</title>
 <style>
-:root{--green:#193c37;--gold:#c7a878;--light:#f7f7f4;--text:#263631}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);line-height:1.6}
-header{background:#fff;display:flex;justify-content:space-between;align-items:center;padding:22px 7%;gap:15px}
-.logo{font-size:22px;font-weight:800;letter-spacing:.5px;color:var(--green)}
-.logo span{display:block;font-size:10px;letter-spacing:3px;font-weight:500}
-nav a{margin-left:20px;text-decoration:none;color:var(--green);font-weight:600}
-.hero{background:linear-gradient(135deg,#173b36,#36685c);color:white;text-align:center;padding:105px 7%}
-.hero h1{font-size:clamp(32px,6vw,60px);max-width:850px;margin:0 auto 22px;line-height:1.15}
-.hero p{font-size:18px;max-width:700px;margin:0 auto 30px;color:#e1ece6}
-.btn{display:inline-block;background:var(--gold);color:#172d28;padding:13px 24px;border-radius:6px;font-weight:700;text-decoration:none;margin:5px}
-.btn.dark{background:var(--green);color:white}
-section{padding:70px 7%}
-h2{text-align:center;color:var(--green);font-size:34px;margin:0 0 15px}
-.intro{text-align:center;max-width:680px;margin:0 auto 40px;color:#66716b}
-.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;max-width:1200px;margin:auto}
-.card{background:#fff;border:1px solid #e1e7e2;border-radius:12px;overflow:hidden;box-shadow:0 8px 28px #193c3710;display:flex;flex-direction:column}
-.visual{height:155px;background:linear-gradient(135deg,#e8f0e9,#cadbd0);display:flex;align-items:center;justify-content:center;font-size:65px}
-.visual img{width:100%;height:100%;object-fit:cover;display:block}
-.content{padding:25px;display:flex;flex-direction:column;flex:1}
-.content h3{font-size:21px;color:var(--green);line-height:1.25;margin:0 0 12px}
-.content p{color:#64716a;margin:0 0 16px;flex:1}
-.price{font-size:22px;font-weight:800;color:var(--green);margin-bottom:14px}
-.content .btn{margin:0;text-align:center}
-.about{background:var(--light);text-align:center}
-.about p{max-width:800px;margin:15px auto}
-.contact{background:var(--green);color:#fff;text-align:center}
-.contact h2{color:white}
-.contact p{max-width:650px;margin:15px auto 25px}
-footer{text-align:center;padding:25px;background:#102923;color:#c9d8d0;font-size:13px}
-@media(max-width:850px){.grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:560px){header{flex-direction:column;text-align:center}nav a{margin:0 8px;font-size:13px}.grid{grid-template-columns:1fr}.hero{padding:75px 7%}section{padding:55px 6%}}
+:root{--ink:#163a36;--forest:#174b43;--gold:#d6ad68;--paper:#f6f7f4;--muted:#61716c}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;background:var(--paper);color:#20312e;line-height:1.55}a{text-decoration:none}header{background:white;position:sticky;top:0;z-index:10;border-bottom:1px solid #e6ebe7}.nav{max-width:1200px;margin:auto;min-height:75px;padding:12px 24px;display:flex;justify-content:space-between;align-items:center;gap:18px}.brand{font-size:20px;font-weight:850;letter-spacing:.02em;color:var(--ink);line-height:1.1}.brand small{display:block;font-size:10px;letter-spacing:.22em;font-weight:650;margin-top:6px;color:#a07d43}.links{display:flex;gap:23px;align-items:center}.links a{color:var(--ink);font-size:14px;font-weight:650}.pill{background:var(--forest);color:white!important;border-radius:50px;padding:11px 18px}.hero{background:linear-gradient(125deg,#11362f,#236459 68%,#3c8276);color:white;text-align:center;padding:108px 20px 110px;position:relative;overflow:hidden}.hero:after{content:'';position:absolute;width:420px;height:420px;border:1px solid #ffffff20;border-radius:50%;right:-190px;top:-210px}.eyebrow{color:#ebc88e;font-size:12px;letter-spacing:.23em;font-weight:800;text-transform:uppercase}.hero h1{font-size:clamp(35px,5.8vw,70px);max-width:930px;line-height:1.09;letter-spacing:-.045em;margin:20px auto}.hero p{font-size:18px;color:#e1eee9;max-width:650px;margin:0 auto 32px}.actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}.btn{display:inline-block;padding:13px 22px;border-radius:9px;font-weight:750;background:var(--gold);color:#19332d}.btn.outline{border:1px solid #ffffffb0;background:transparent;color:white}.section{max-width:1200px;margin:auto;padding:80px 24px}.section h2{text-align:center;font-size:clamp(29px,4vw,43px);color:var(--ink);letter-spacing:-.04em;margin:8px 0}.sub{text-align:center;max-width:720px;margin:0 auto 42px;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.card{background:#fff;border:1px solid #e5ebe6;border-radius:17px;overflow:hidden;box-shadow:0 10px 35px #123e3020;display:flex;flex-direction:column}.visual{height:215px;background:linear-gradient(135deg,#dfeee8,#b8d5c9);position:relative;overflow:hidden;display:grid;place-items:center}.visual img{width:100%;height:100%;object-fit:cover;display:block}.visual .fallback{position:absolute;inset:0;display:grid;place-items:center;font-size:76px;background:linear-gradient(135deg,#dcece6,#c1d9cd);z-index:0}.visual img{position:relative;z-index:1}.body{padding:24px;display:flex;flex-direction:column;flex:1}.body h3{font-size:21px;line-height:1.22;color:var(--ink);margin:0 0 12px}.body p{color:var(--muted);font-size:14px;margin:0 0 18px;flex:1}.price{font-weight:850;font-size:21px;color:var(--ink);margin:0 0 16px}.card .btn{background:var(--forest);color:white;text-align:center;font-size:14px}.band{background:#e7eee9}.benefits{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:36px}.benefit{background:#fff;padding:28px;border-radius:15px}.benefit b{display:block;color:var(--ink);font-size:18px;margin:10px 0}.benefit p{color:var(--muted);font-size:14px;margin:0}.contact{background:var(--forest);color:#fff;text-align:center;padding:78px 24px}.contact h2{font-size:clamp(28px,4vw,42px);margin:0 0 12px}.contact p{color:#dce9e3;margin:0 auto 27px;max-width:600px}.contact .btn.outline{border-color:#ffffff9c}footer{text-align:center;background:#102e29;color:#c5d7d0;padding:24px;font-size:13px}.note{font-size:12px;color:#7b8c85;text-align:center;margin-top:27px}@media(max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.benefits{grid-template-columns:1fr}.links{gap:12px}}@media(max-width:620px){.grid{grid-template-columns:1fr}.links a:not(.pill){display:none}.nav{padding:12px 16px}.brand{font-size:17px}.hero{padding:76px 20px}.section{padding:60px 18px}.visual{height:230px}.links .pill{font-size:12px;padding:10px 13px}}
 </style>
 </head>
 <body>
-<header>
-<div class="logo">DESERT SKY<span>RENOVATIONS</span></div>
-<nav><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
-</header>
-
-<div class="hero">
-<h1>Upgrade Your Living Space with Quality, Comfort, and Style.</h1>
-<p>Professional home improvements and renovations serving Los Angeles and Coachella Valley.</p>
-<a class="btn" href="#services">Explore Our Services</a>
-<a class="btn dark" href="#contact">Get a Free Quote</a>
-</div>
-
-<section id="services">
-<h2>Our Services</h2>
-<p class="intro">Quality workmanship, thoughtful upgrades, and professional installation. Explore our starting prices below.</p>
-<div class="grid">
-
-<article class="card"><div class="visual"><img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=900" alt="Modern bathroom toilet"></div>🚽</div><div class="content">
-<h3>Bidet Attachment for Toilet</h3>
-<p>Enjoy better personal hygiene, added comfort, and reduced toilet paper use. Includes bidet attachment, parts, and professional installation.</p>
-<div class="price">Starting at $394</div>
-<a class="btn dark" href="#contact">Get a Quote</a>
-</div></article>
-
-<article class="card"><div class="visual">💧</div><div class="content">
-<h3>6-Stage Alkaline Water Filtration</h3>
-<p>Improve the taste and quality of your drinking water with a six-stage reverse osmosis filtration system. Equipment and installation included.</p>
-<div class="price">Starting at $597</div>
-<a class="btn dark" href="#contact">Get a Quote</a>
-</div></article>
-
-<article class="card"><div class="visual">🚽</div><div class="content">
-<h3>Toilet Replacement</h3>
-<p>Upgrade to a new basic toilet with professional installation, wax ring, supply valve, and water supply hose.</p>
-<div class="price">Starting at $797</div>
-<a class="btn dark" href="#contact">Get a Quote</a>
-</div></article>
-
-<article class="card"><div class="visual">🌬️</div><div class="content">
-<h3>Bathroom Exhaust Fan with Light</h3>
-<p>Reduce moisture and unwanted odors with a bathroom ventilation fan, integrated light, and exhaust duct vented outdoors.</p>
-<div class="price">Starting at $1,194</div>
-<a class="btn dark" href="#contact">Get a Quote</a>
-</div></article>
-
-<article class="card"><div class="visual">🪞</div><div class="content">
-<h3>Bathroom Vanity Replacement</h3>
-<p>Refresh your bathroom with a clean, elegant white vanity, sink, faucet, and professional installation.</p>
-<div class="price">Starting at $1,256</div>
-<a class="btn dark" href="#contact">Get a Quote</a>
-</div></article>
-
-<article class="card"><div class="visual">♨️</div><div class="content">
-<h3>Water Heater Replacement</h3>
-<p>Reliable hot water with professional replacement of a standard 40-gallon tank water heater. Larger capacities available at additional cost.</p>
-<div class="price">Starting at $1,496</div>
-<a class="btn dark" href="#contact">Get a Quote</a>
-</div></article>
-
-<article class="card"><div class="visual">❄️</div><div class="content">
-<h3>Mini-Split AC Installation</h3>
-<p>Enjoy efficient, personalized heating and cooling with a 9,000 BTU mini-split system. Additional electrical work and larger systems priced separately.</p>
-<div class="price">Starting at $1,594</div>
-<a class="btn dark" href="#contact">Get a Quote</a>
-</div></article>
-
-<article class="card"><div class="visual">🛁</div><div class="content">
-<h3>Complete Bathroom Renovation</h3>
-<p>Transform your bathroom with beautiful finishes, modern fixtures, updated surfaces, and professional remodeling services.</p>
-<div class="price">Request a Free Estimate</div>
-<a class="btn dark" href="#contact">Get a Quote</a>
-</div></article>
-
-<article class="card"><div class="visual">🏠</div><div class="content">
-<h3>Garage Conversion / ADU</h3>
-<p>Turn your garage into a functional living space. Ask about garage conversions and accessory dwelling unit projects in our service areas.</p>
-<div class="price">Request a Free Estimate</div>
-<a class="btn dark" href="#contact">Get a Quote</a>
-</div></article>
-
-</div>
-</section>
-
-<section class="about" id="about">
-<h2>Built on Experience. Focused on Quality.</h2>
-<p>At Desert Sky Renovations, we believe every home deserves quality craftsmanship, dependable service, and attention to detail.</p>
-<p>Serving homeowners throughout Los Angeles and Coachella Valley with practical solutions that enhance comfort, function, and style.</p>
-</section>
-
-<section class="contact" id="contact">
-<h2>Let's Improve Your Home</h2>
-<p>Tell us about your project. Contact Desert Sky Renovations to request a personalized estimate.</p>
-<a class="btn" href="mailto:desertskyrenovations@gmail.com?subject=Free%20Estimate%20Request">Email Us</a>
-<a class="btn" href="https://wa.me/15056048814?text=Hello%2C%20I%20would%20like%20an%20estimate%20from%20Desert%20Sky%20Renovations.">WhatsApp Us</a>
-<a class="btn" href="tel:+15056048814">Call Us</a>
-<p>desertskyrenovations@gmail.com</p>
-</section>
-
-<footer>© 2026 Desert Sky Renovations. All rights reserved.</footer>
-</body>
-</html>
+<header><nav class="nav"><a class="brand" href="#top">DESERT SKY<span style="display:block">RENOVATIONS</span><small>QUALITY • COMFORT • STYLE</small></a><div class="links"><a href="#services">Services</a><a href="#why-us">Why Choose Us</a><a class="pill" href="#contact">Get a Quote</a></div></nav></header>
+<main id="top"><section class="hero"><div class="eyebrow">Los Angeles & Coachella Valley</div><h1>Upgrade Your Living Space with Quality, Comfort, and Style.</h1><p>Thoughtful home improvements, reliable installation, and beautifully finished spaces — made simple.</p><div class="actions"><a class="btn" href="#services">Explore Our Services</a><a class="btn outline" href="#contact">Get a Free Quote</a></div></section>
+<section class="section" id="services"><div class="eyebrow" style="text-align:center;color:#a78246">What We Do</div><h2>Our Services</h2><p class="sub">Practical upgrades and professional renovations for your home. Explore our starting prices below.</p><div class="grid" id="cards"></div><p class="note">Starting prices are estimates for standard installations. Final pricing depends on site conditions, equipment selection, and project scope.</p></section>
+<section class="band" id="why-us"><div class="section"><div class="eyebrow" style="text-align:center;color:#a78246">The Desert Sky Difference</div><h2>Comfort Starts with Quality Work</h2><div class="benefits"><div class="benefit"><span style="font-size:29px">🛠️</span><b>Professional Installation</b><p>Experienced craftsmanship and attention to the details that matter.</p></div><div class="benefit"><span style="font-size:29px">🏡</span><b>Home-Focused Solutions</b><p>Useful improvements designed to make everyday living more comfortable.</p></div><div class="benefit"><span style="font-size:29px">🤝</span><b>Clear Communication</b><p>Discuss your project, understand the scope, and request a personalized estimate.</p></div></div></div></section>
+<section class="contact" id="contact"><div class="eyebrow">Let's Talk About Your Project</div><h2>Ready to Upgrade Your Home?</h2><p>Tell us what you're planning. We serve Los Angeles and the Coachella Valley, with select service areas for ADU projects.</p><div class="actions"><a class="btn" id="email" href="mailto:desertskyrenovations@gmail.com?subject=Free%20Project%20Estimate">Email Us for a Quote</a><a class="btn outline" id="wa" href="https://wa.me/15056048814?text=Hello%20Desert%20Sky%20Renovations%2C%20I%20would%20like%20a%20free%20estimate." target="_blank" rel="noopener">WhatsApp Us</a></div><p style="margin-top:22px;font-size:14px">desertskyrenovations@gmail.com</p></section></main><footer>© <span id="year"></span> Desert Sky Renovations · Los Angeles & Coachella Valley</footer>
+<script>
+const services=[
+{title:'Bidet Attachment for Toilet',price:'$394',emoji:'🚽',image:'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=900&q=85',desc:'A clean, comfortable bathroom upgrade. Includes a bidet attachment, necessary parts, and professional installation. Helps reduce toilet paper use.'},
+{title:'6-Stage Alkaline Water Filtration',price:'$597',emoji:'💧',image:'',desc:'Enjoy better-tasting drinking water with a six-stage alkaline reverse osmosis system. Equipment and standard installation included.'},
+{title:'Toilet Replacement',price:'$797',emoji:'🚽',image:'https://images.unsplash.com/photo-1564540583246-934409427776?auto=format&fit=crop&w=900&q=85',desc:'Replace your toilet with a new basic model. Includes professional installation, wax ring, new supply valve, and water supply hose.'},
+{title:'Bathroom Exhaust Fan with Light',price:'$1,194',emoji:'🌬️',image:'',desc:'Help control moisture and odors with a bathroom ventilation fan, integrated light, and exhaust duct vented outdoors.'},
+{title:'Bathroom Vanity Replacement',price:'$1,256',emoji:'🪞',image:'https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=900&q=85',desc:'Refresh your bathroom with a classic white vanity, sink, faucet, and professional installation. Add useful storage and a polished look.'},
+{title:'Water Heater Replacement',price:'$1,496',emoji:'♨️',image:'',desc:'Replace your water heater with a standard 40-gallon tank system, including equipment and installation. Larger capacities and special work are extra.'},
+{title:'Mini Split AC Installation',price:'$1,594',emoji:'❄️',image:'',desc:'Comfortable, efficient cooling with a standard 9,000 BTU mini split and installation. Electrical upgrades and larger units are extra.'},
+{title:'Complete Bathroom Renovation',price:null,emoji:'🛁',image:'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=900&q=85',desc:'Transform your bathroom with a tailored renovation plan, updated finishes, and professional workmanship. Contact us for a personalized estimate.'},
+{title:'Garage Conversion / ADU',price:null,emoji:'🏠',image:'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=85',desc:'Explore converting your garage into a functional additional living space. Available in select areas; project scope and permitting requirements vary.'}
+];
+const grid=document.getElementById('cards');
+services.forEach(s=>{const card=document.createElement('article');card.className='card';const visual=document.createElement('div');visual.className='visual';const fallback=document.createElement('span');fallback.className='fallback';fallback.textContent=s.emoji;visual.appendChild(fallback);if(s.image){const img=document.createElement('img');img.src=s.image;img.alt=s.title;img.loading='lazy';img.onerror=()=>img.remove();visual.appendChild(img)}const body=document.createElement('div');body.className='body';const h=document.createElement('h3');h.textContent=s.title;const p=document.createElement('p');p.textContent=s.desc;const price=document.createElement('div');price.className='price';price.textContent=s.price?'Starting at '+s.price:'Request a Free Estimate';const a=document.createElement('a');a.className='btn';a.textContent='Get a Quote';a.href='mailto:desertskyrenovations@gmail.com?subject='+encodeURIComponent('Estimate Request: '+s.title)+'&body='+encodeURIComponent('Hello Desert Sky Renovations,\n\nI would like an estimate for '+s.title+'.\n\nMy name:\nMy city:\nProject details:\n');body.append(h,p,price,a);card.append(visual,body);grid.appendChild(card)});
+document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body></html>
